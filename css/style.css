@@ -214,7 +214,7 @@ body {
 .help-list {
   margin-left: 586px;
   list-style: none;
-  counter-reset: my-awesome-counter;
+  counter-reset: my-counter;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,14 +231,14 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   max-width: 500px;
-  counter-increment: my-awesome-counter;
+  counter-increment: my-counter;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .help-list__item:before {
-  content: counter(my-awesome-counter) ". ";
+  content: counter(my-counter) ". ";
   color: #ffffff;
   font-size: 60px;
   font-family: 'Comic Sans MS Bold', sans-serif;
@@ -268,4 +268,125 @@ body {
 }
 
 /* Import Offer style */
+.offer {
+  position: relative;
+  padding-bottom: 17px;
+}
+
+.offer-image {
+  position: absolute;
+  margin-top: 47px;
+  margin-left: 1683px;
+}
+
+.offer-title {
+  margin-top: 84px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 37px;
+}
+
+.offer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offer-list__item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 325px;
+  margin-top: 100px;
+}
+
+.offer-list__image-growth {
+  background: url("../img/offer/growth.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-growth:hover {
+  background: url("../img/offer/growth_hover.png");
+}
+
+.offer-list__image-schedule {
+  background: url("../img/offer/schedule.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-schedule:hover {
+  background: url("../img/offer/schedule_hover.png");
+}
+
+.offer-list__image-comfortable {
+  background: url("../img/offer/comfortable.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-comfortable:hover {
+  background: url("../img/offer/comfortable_hover.png");
+}
+
+.offer-list__image-salary {
+  background: url("../img/offer/salary.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-salary:hover {
+  background: url("../img/offer/salary_hover.png");
+}
+
+.offer-list__image-leisure {
+  background: url("../img/offer/leisure.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-leisure:hover {
+  background: url("../img/offer/leisure_hover.png");
+}
+
+.offer-list__image-english {
+  background: url("../img/offer/english.png") no-repeat center;
+  width: 205px;
+  height: 205px;
+}
+
+.offer-list__image-english:hover {
+  background: url("../img/offer/english_hover.png");
+}
+
+.offer-list__description {
+  text-align: center;
+  color: #272f2f;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 22px;
+}
 /*# sourceMappingURL=style.css.map */

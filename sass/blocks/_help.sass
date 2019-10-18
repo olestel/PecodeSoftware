@@ -15,7 +15,7 @@
     &-list
         margin-left: 586px
         list-style: none
-        counter-reset: my-awesome-counter
+        counter-reset: my-counter
         display: flex
         flex-direction: column
         flex-wrap: wrap
@@ -24,10 +24,10 @@
             line-height: 26px
             text-transform: uppercase
             max-width: 500px
-            counter-increment: my-awesome-counter
+            counter-increment: my-counter
             display: flex
             &:before
-                content: counter(my-awesome-counter)'. '
+                content: counter(my-counter)'. '
                 color: #ffffff
                 font-size: 60px
                 +bold
