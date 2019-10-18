@@ -1,0 +1,50 @@
+.help
+    position: relative
+    background-color: #1ea992
+    +bold
+    color: #ffffff
+    &-image
+        position: absolute
+        margin-top: -12px
+    &-title
+        padding-top: 27px
+        margin-left: 586px
+        text-transform: uppercase
+        font-size: 30px
+        margin-bottom: 83px
+    &-list
+        margin-left: 586px
+        list-style: none
+        counter-reset: my-awesome-counter
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        &__item
+            font-size: 16px
+            line-height: 26px
+            text-transform: uppercase
+            max-width: 500px
+            counter-increment: my-awesome-counter
+            display: flex
+            &:before
+                content: counter(my-awesome-counter)'. '
+                color: #ffffff
+                font-size: 60px
+                +bold
+                line-height: 26px
+                margin-right: 18px
+                margin-top: 15px
+            &:first-child
+                margin-bottom: 88px
+            &:nth-child(2)
+                margin-left: 100px
+                margin-bottom: 90px
+            &:nth-child(3)
+                margin-left: 5px
+                margin-bottom: 60px
+            &:last-child
+                margin-bottom: 54px
+                margin-left: 105px
+
+
+                
