@@ -25,27 +25,12 @@ body {
   padding: 0;
   margin: 0;
   width: 1911px;
+  position: relative;
 }
 
 .container {
   width: 1200px;
   margin: auto;
-}
-
-.forms {
-  margin-left: 17px;
-  margin-top: 130px;
-  margin-bottom: 60px;
-}
-
-.forms-title {
-  font-family: 'Comic Sans MS Bold', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 30px;
-  color: #272f2f;
-  margin-bottom: 74px;
-  margin-left: 43px;
 }
 
 .forms-input {
@@ -56,6 +41,7 @@ body {
   padding: 8px 5px;
   outline: 0;
   margin-bottom: 31px;
+  background: none;
 }
 
 .forms-input__title {
@@ -125,6 +111,22 @@ body {
 .header-image__bubbles {
   position: absolute;
   margin-top: 827px;
+}
+
+.header-forms {
+  margin-left: 17px;
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.header-forms__title {
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #272f2f;
+  margin-bottom: 74px;
+  margin-left: 43px;
 }
 
 /* Import Requirement style */
@@ -270,13 +272,13 @@ body {
 /* Import Offer style */
 .offer {
   position: relative;
-  padding-bottom: 17px;
+  padding-bottom: 70px;
 }
 
 .offer-image {
   position: absolute;
-  margin-top: 47px;
-  margin-left: 1683px;
+  top: 47px;
+  right: -7px;
 }
 
 .offer-title {
@@ -388,5 +390,157 @@ body {
   font-weight: 700;
   margin-top: 10px;
   line-height: 22px;
+}
+
+/* Import Footer style */
+.footer {
+  height: 1533px;
+}
+
+.footer-image {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-author {
+  margin-top: 30px;
+  bottom: 0;
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts {
+  position: relative;
+  z-index: 1;
+  padding-top: 152px;
+}
+
+.contacts-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts-forms {
+  margin-left: 90px;
+}
+
+.contacts-forms__input {
+  color: #ffffff;
+}
+
+.contacts-forms__title {
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contacts-block {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.contacts-block__info {
+  margin-right: 75px;
+}
+
+.contacts-block__info__title {
+  font-size: 20px;
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.contacts-block__info__address {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.contacts-block__info__mobile {
+  font-size: 16px;
+  display: block;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.contacts-block__info__number {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contacts-block__info__email {
+  font-size: 16px;
+  display: block;
+  line-height: 38px;
+  letter-spacing: 1.28px;
+  margin-bottom: 82px;
+}
+
+.contacts-block__info__mailto {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 1.28px;
+}
+
+.contacts-block__info__linkedin {
+  display: inline-block;
+  background: url("../img/footer/contacts/linkedin.png") no-repeat center;
+  width: 32px;
+  height: 32px;
+  margin-right: 52px;
+}
+
+.contacts-block__info__linkedin:hover {
+  background: url("../img/footer/contacts/linkedin_hover.png");
+}
+
+.contacts-block__info__twitter {
+  display: inline-block;
+  background: url("../img/footer/contacts/twitter.png") no-repeat center;
+  width: 32px;
+  height: 32px;
+  margin-right: 52px;
+}
+
+.contacts-block__info__twitter:hover {
+  background: url("../img/footer/contacts/twitter_hover.png");
+}
+
+.contacts-block__info__facebook {
+  display: inline-block;
+  background: url("../img/footer/contacts/facebook.png") no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.contacts-block__info__facebook:hover {
+  background: url("../img/footer/contacts/facebook_hover.png");
+}
+
+.map {
+  position: relative;
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -23,24 +23,26 @@
                 <li><a class="navbar__item" href="#requirement">Our requirement</a></li>
                 <li><a class="navbar__item" href="#help">Help</a></li>
                 <li><a class="navbar__item" href="#offer">We offer</a></li>
-                <li><a class="navbar__item" href="#">Contacts</a></li>
+                <li><a class="navbar__item" href="#contacts">Contacts</a></li>
             </ul>        
         </nav>
         <!-- /.navbar -->
 
         <div class="header container">
-            <form action="#" class="forms">
-                <h2 class="forms-title">sent request</h1>
-                <input type="text" name="username" class="forms-input" placeholder="Input your name">
+            <form action="#" class="header-forms">
+                <h2 class="header-forms__title">sent request</h1>
+                <input type="text" required name="username" class="forms-input" placeholder="Input your name">
                 <h3 class="forms-input__title">Input email</h3>
-				<input type="email" name="email" class="forms-input" placeholder="Input your email">
+				<input type="email" required name="email" class="forms-input" placeholder="Input your email">
 				<button class="forms-button">sent</button>
             </form>
 
             <img src="img/header/header.png" alt="Main header image">
         </div>
     </header>
-    <!-- /.header -->
+    <!-- /header -->
+
+    <main>
 
     <section class="requirement container" id="requirement">
         <h2 class="requirement-title">Our requirement</h2>
@@ -212,6 +214,56 @@
         </div>
     </section>
     <!-- /.offer -->
+
+    </main>
+    <!-- /main -->
+
+    <footer id="contacts" class="footer">
+            
+        <section class="contacts container">
+            <h2 class="contacts-title">Contacts</h2>
+            <div class="contacts-block">
+                <form action="#" class="contacts-forms">
+                    <h2 class="contacts-forms__title">sent request</h1>
+                    <input type="text" required name="username" class="forms-input contacts-forms__input" placeholder="Input your name">
+                    <h3 class="forms-input__title">Input email</h3>
+                    <input type="email" required name="email" class="forms-input contacts-forms__input" placeholder="Input your email">
+                    <button class="forms-button">sent</button>
+                </form>
+
+                <div class="contacts-block__info">
+                    <h2 class="contacts-block__info__title">get in touch</h2>
+                    <span class="contacts-block__info__address">Ukraine, Lviv</span>
+                    <span class="contacts-block__info__mobile">
+                        Telephone: 
+                        <a href="tel:+38(050)921-43-81" class="contacts-block__info__number">+38 (050) 921-43-81</a>
+                    </span>
+                    <span class="contacts-block__info__email">
+                        E-mail:
+                        <a href="mailto:pecodesoftware@gmail.com" class="contacts-block__info__mailto">pecodesoftware@gmail.com</a>
+                    </span>
+                    <a href="www.linkedin.com"><div class="contacts-block__info__linkedin"></div></a>
+                    <a href="www.twitter.com"><div class="contacts-block__info__twitter"></div></a>
+                    <a href="www.facebook.com"><div class="contacts-block__info__facebook"></div></a>
+                </div>
+            </div>
+        </section>
+        <!-- /.contacts -->
+
+        <footer class="map">
+            <div class="map">
+                    <iframe width="1920" height="655" id="gmap_canvas" 
+                    src="https://maps.google.com/maps?q=49.795354%2C%2024.005450&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+
+            <h2 class="footer-author">Created by ...</h2>
+        </footer>
+        <!-- /.map -->
+
+        <img src="img/footer/footer.png" alt="Footer background" class="footer-image">
+    </footer>
+    <!-- /.footer -->
 
 </body>
 </html>
