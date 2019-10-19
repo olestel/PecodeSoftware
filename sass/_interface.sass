@@ -4,9 +4,11 @@ body
     +reg
     padding: 0
     margin: 0
-    // width: 1911px
     width: 100%
     position: relative
+iframe
+    position: relative
+    z-index: 1
 .container
     width: 1200px
     margin: auto
@@ -41,5 +43,24 @@ body
             &:hover
                 background-image: linear-gradient(49deg, #fb6b4ece 0%, #ff606a9c 100%)
                 cursor: pointer
-
-
+.to-top
+    color: #ffffff
+    z-index: 11
+    width: 40px
+    text-align: center
+    padding: 10px 10px 0 10px
+    text-decoration: none
+    position: fixed
+    bottom: 50px
+    right: 50px
+    cursor: pointer
+    font-size: 25px
+    border-radius: 40px
+    background-image: linear-gradient(#fb6a4e 0%, #ff606a 100%)
+    border: none
+@media (max-width: 1200px)
+    .container
+        width: 1024px
+@media (max-width: 1024px)
+    .container
+        width: 700px
