@@ -48,8 +48,9 @@
             &:last-child
                 margin-bottom: 54px
                 margin-left: 105px
-@media (max-width: 1054px)
+@media (max-width: 1024px)
     .help
+        padding-top: 10px
         &-image
             display: none
         &-title
@@ -57,6 +58,8 @@
             text-align: center
         &-list
             margin-left: 0
+            &__item
+                +reg
 @media (max-width: 765px)
     .help
         &-list
