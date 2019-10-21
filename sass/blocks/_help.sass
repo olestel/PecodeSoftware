@@ -1,8 +1,8 @@
 .help
     position: relative
-    background-color: #1ea992
+    background-color: $help-bg
     +bold
-    color: #ffffff
+    color: $main-color
     &-image
         position: absolute
         margin-top: -12px
@@ -31,7 +31,7 @@
             display: flex
             &:before
                 content: counter(my-counter)'. '
-                color: #ffffff
+                color: $main-color
                 font-size: 60px
                 +bold
                 line-height: 26px

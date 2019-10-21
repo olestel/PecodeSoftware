@@ -11,9 +11,9 @@
         text-decoration: none
         text-transform: uppercase
         font-size: 18px
-        color: #ffffff
+        color: $main-color
         &:hover
-            background: linear-gradient(49deg, #fb6a4e 0%, #ff606a 100%)
+            background: $secondary
             -webkit-background-clip: text
             -webkit-text-fill-color: transparent
     &-menu-icon
@@ -28,14 +28,14 @@
         margin: 0 auto
         z-index: 1000
         padding: 10px 0
-        background-image: linear-gradient(49deg, #fb6a4e 0%, #ff606a 100%)
+        background-image: $secondary
         border-radius: 20px
         position: fixed
         &__list
             padding: 0
         &__item
             &:hover
-                background: linear-gradient(49deg, #1db8a4 0%, #38f399 100%)
+                background: $secondary-hover
                 -webkit-background-clip: text
                 -webkit-text-fill-color: transparent
 @media (max-width: 765px)

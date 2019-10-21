@@ -17,7 +17,7 @@ iframe
         display: block
         width: 334px
         border: 0
-        border-bottom: 2px solid #32cfb6
+        border-bottom: 2px solid $border-input
         padding: 8px 5px
         outline: 0
         margin-bottom: 31px
@@ -25,26 +25,26 @@ iframe
         &__title
             font-size: 14px
             text-transform: uppercase
-            color: #1db8a4
+            color: $text-color
             margin-bottom: 11px
     &-button
         margin: 19px 46px
         border-radius: 5px
         text-transform: uppercase
-        color: #ffffff
+        color: $main-color
         font-size: 18px
         +bold
-        background-image: linear-gradient(49deg, #fb6a4e 0%, #ff606a 100%)
+        background-image: $secondary
         width: 243px
         height: 60px
         outline: 0
         border: 0
         &:hover
             &:hover
-                background-image: linear-gradient(49deg, #fb6b4ece 0%, #ff606a9c 100%)
+                background-image: $hover-button
                 cursor: pointer
 .to-top
-    color: #ffffff
+    color: $main-color
     z-index: 11
     width: 40px
     text-align: center
@@ -56,7 +56,7 @@ iframe
     cursor: pointer
     font-size: 25px
     border-radius: 40px
-    background-image: linear-gradient(#fb6a4e 0%, #ff606a 100%)
+    background-image: $secondary
     border: none
 @media (max-width: 1200px)
     .container
