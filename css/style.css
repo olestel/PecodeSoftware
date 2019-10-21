@@ -362,6 +362,10 @@ iframe {
 }
 
 @media (max-width: 1200px) {
+  .requirement {
+    position: relative;
+    z-index: 1;
+  }
   .requirement-blocks {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -378,8 +382,6 @@ iframe {
 @media (max-width: 765px) {
   .requirement {
     padding-top: 50px;
-    position: relative;
-    z-index: 1;
   }
   .requirement-title {
     font-size: 20px;
@@ -403,7 +405,7 @@ iframe {
 .help-image {
   position: absolute;
   margin-top: -12px;
-  width: 50%;
+  right: 49.5%;
   height: 984px;
 }
 
