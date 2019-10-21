@@ -40,8 +40,18 @@
                 -webkit-text-fill-color: transparent
 @media (max-width: 765px)
     .navbar
+        width: 250px
+        text-align: left
         &__list
             flex-direction: column
         &-menu-icon
-            position: relative
-            display: inline-block
+            display: block
+            margin-left: 10px
+            width: 35px
+            height: 35px
+            cursor: pointer
+        &__item
+            margin-left: 60px
+            line-height: 30px
+    .hide
+        display: none

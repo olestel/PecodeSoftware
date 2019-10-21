@@ -12,23 +12,24 @@
 </head>
 <body>
 
-    <header id="header">
+    <header id="navBar">
         <img src="img/header/top.png" alt="Top background image" class="header-image__top">
         <img src="img/header/left.png" alt="Left bubbles background image" class="header-image__bubbles">
 
         <nav class="navbar container">
-            <ul class="navbar__list">
+            <img id="menuIcon" src="img/header/menu_icon.png" alt="Menu icon" class="navbar-menu-icon">
+            
+            <ul class="navbar__list hide" id="menuList">
                 <li><a class="navbar__item" href="#header">Home</a></li>
                 <li><a class="navbar__item" href="#requirement">Our requirement</a></li>
                 <li><a class="navbar__item" href="#help">Help</a></li>
                 <li><a class="navbar__item" href="#offer">We offer</a></li>
                 <li><a class="navbar__item" href="#contacts">Contacts</a></li>
-                <img src="img/header/menu_icon.png" alt="Menu icon" class="navbar-menu-icon"> 
             </ul>       
         </nav>
         <!-- /.navbar -->
 
-        <section class="header container">
+        <section id="header" class="header container">
             <form action="#" class="header-forms">
                 <h2 class="header-forms__title">sent request</h1>
                 <input type="text" required name="username" class="forms-input" placeholder="Input your name">
@@ -39,7 +40,7 @@
 
             <img src="img/header/header.png" alt="Main header image" class="header-image">
         </section>
-        <a href="#header" class="to-top">^</a>
+        <a href="#navBar" class="to-top">^</a>
     </header>
     <!-- /header -->
 
@@ -259,5 +260,6 @@
     </footer>
     <!-- /.footer -->
 
+    <script src="js/main.js"></script>
 </body>
 </html>
